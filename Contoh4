@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char C;
+    for (C='A'; C<='J'; C++) {
+        cout << C << ",";
+    }
+    cout << endl;
+    for (C='J'; C>='A'; C--) {
+        cout << C << ",";
+    }
+    return 0;
+}
