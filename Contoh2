@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int C;
+    for (C=10; C>0; C--) {
+        cout << "Saya sangat menyukai C++" << endl;
+    }
+    return 0;
+}
